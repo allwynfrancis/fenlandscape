@@ -1,0 +1,13 @@
+.carousel .carousel-caption {
+  line-height: 40px;
+  top: 60vh;
+}
+
+.carousel .banner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+/*# sourceMappingURL=carousel.css.map */

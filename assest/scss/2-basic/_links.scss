@@ -1,0 +1,14 @@
+/* links */
+a{
+	text-decoration: none !important;
+	font-family: $default-font ;
+	// font-size:1.3vw;
+	display: block;
+	// padding: .6rem 1rem;
+
+	color: $white;
+	&:hover, &:focus{
+		text-decoration: none !important;
+
+	}
+		}

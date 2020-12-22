@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAGY,aAHC,CACT,IAAI,CAEI,cAAc,CAAA;EACV,UAAU,EAAE,WAAW;EACvB,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "form.scss"
+    ],
+    "names": [],
+    "file": "form.css"
+}

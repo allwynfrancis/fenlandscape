@@ -1,0 +1,201 @@
+header{
+    
+    .brand{
+        // left: 50%;
+        // transform: translateX(-50%);
+        .logo-img{
+            @include img($img-l);
+        }
+    }
+    
+}
+
+.wrapper{
+   font-family: $default-font;
+   color:$white;
+   section{
+    position: relative;
+    margin: 10em 0;
+    }
+   .section-1{
+      
+       .intro-img{
+           
+           width: 100%;
+           max-height: 100%;
+           border: 15px solid $primary-color;
+        //    margin-top: 100px;
+
+       }
+       .intro-content{
+           background: $secondary-color;
+        //    margin-top: 108px;
+    padding: 0 50px;
+    padding-left: 160px;
+    margin-left: -10em;
+       }
+   }
+   .section-2{
+      
+       .design-architecture-header{
+        &::before{
+            content:'';
+            width: 90%;
+            height: 2px;
+            background-color:$divider-line;
+            position: absolute;
+            top: 100%;
+            left: 5%;
+            // transform: rotate(90deg);
+        }
+       }
+       .design-architecture{
+           li{
+            //    display: inline-block;
+               position: relative;
+            //    margin:10px 0;
+            //    padding: .6rem 1rem;
+               a{
+                  
+                   font-size: $font-xxl;
+                //    padding: 10px 70px;
+                padding: .6rem 1rem;
+                transition: 0.1s ease-out;
+               }
+           }
+       }
+      
+   }
+   .section-3{
+      .card{
+          @include border-radius($secondary-border-radius);
+        //   overflow: hidden;
+          border: none;
+       @include box-shadow($box-shadow-card);
+          &::before{
+              content: '';
+              width: 22%;
+              height: 100%;
+              background: $secondary-color;
+              position: absolute;
+              left: 0;
+              top: 0;
+              border-radius: 10px 0 0 10px;
+              transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        // transition: 0.3s linear;
+        //     //   transform: translateX(-80%);
+        //     // z-index: -1;
+
+               }
+               &:hover::before{
+                   width: 100%;
+                   @include border-radius($secondary-border-radius);
+               }
+             .card-wrapper{
+              width: 80%;
+              .card-header,.card-content{
+                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+              }
+                .card-content{
+                    font-style:italic;
+                    // transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+                    &::before{
+                        content: '';
+                        width: 2px;
+                        height: 75%;
+                        position: absolute;
+                        background: $light-green;
+                        // opacity: 0.3;
+                        @include border-radius($default-border-radius);
+                        top: 25px;
+                        left: 8px;
+                        opacity: 0;
+                        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+
+                }
+                }
+            }
+            &:hover .card-content::before{
+                opacity: 0.3;
+            }
+      }
+       .watermark-logo{
+           width: 60px;
+    top: 50%;
+    // transform: translate(-240px,-50%);
+    left: 22%;
+    /* -webkit-transform: translate(-240px, -50%); */
+    transform: translate(-50%,-50%);
+    opacity: 0.2;
+    // transition: 0.3s ease-in;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+       }
+   }
+   .section-4{
+       .map-container{
+            border:  20px solid $primary-color;
+            border-top-width: 25px;
+    border-left-width: 25px;
+    border-right-width: 25px;
+            // // border-left:  25px solid $primary-color;
+            background-color: $primary-color;
+            width: 100%;
+            height: 100%;
+          
+        .map{
+            height: 70vh;
+            width: 100%;
+            border: 25px solid $secondary-color;
+        }
+       }
+   }
+  
+}
+footer{
+    position: relative;
+    background: url(../img/other-imgs/veronica-reverse-qYwyRF9u-uo-unsplashs.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+     &::before{
+      width: 100%;
+      content: '';
+      height: 100%;
+      position: absolute;
+      opacity: 0.8;
+      background: $dark-blue;
+     }
+    .end-credit{
+        border:2px solid $light-green;
+    }
+  .address-wrapper{
+      border-radius: 0 20px 20px 0;
+      .address-header{
+          &::before{
+              content:'';
+              width: 100%;
+              height: 2px;
+              background-color:$divider-line;
+              position: absolute;
+              top: 100%;
+              left: 0%;
+              // transform: rotate(90deg);
+          }
+      }
+      .payment::before{
+          content:'';
+          width: 100%;
+          height: 2px;
+          background-color:$divider-line;
+          position: absolute;
+          top: 0%;
+          left: 0%;
+          // transform: rotate(90deg);
+
+      }
+      .credit-img{
+          max-width: 70px;
+      }
+  }
+    
+ }
+

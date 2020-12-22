@@ -1,0 +1,98 @@
+*{
+   outline: none !important;
+  @include box-sizing(border-box);
+  font-family: $default-font;
+  letter-spacing: 1px;
+}
+ 
+
+.primary-bg{
+   background: $primary-color;
+}
+ 
+.secondary-bg{
+   background: $secondary-color;
+}
+.dark-green-bg{
+  background: $dark-green;
+}
+.dark-blue-bg{
+   background: $dark-blue;
+ }
+ 
+.light-green-bg{
+   background: $light-green;
+ }
+ 
+.secondary-color{
+   color: $secondary-color;
+}
+.font-xlx{
+   font-size:3vw;
+}
+.weight-bolder{
+   font-weight: $font-bolder;
+}
+
+.dark-green-color{
+   color: $dark-green;
+}
+.light-green-color{
+   color: $light-green;
+}
+.dark-blue-color{
+   color: $dark-blue;
+}
+
+.primary-color{
+   color: $primary-color;
+}
+.white-bg{
+   background-color: $white;
+}
+.glass-bg{
+   background: $glass-background;
+}
+// position
+.abscenter
+{
+   @include absolute-center();
+}
+ 
+
+.relative
+{
+   position: relative;
+}
+ 
+.absolute{
+   position: absolute;
+}
+ 
+
+.flex-center{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .opacity-0{
+    opacity: 0;
+ }
+
+.justify-center
+{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.justify-content-even{
+   justify-content: space-evenly;
+}
+.align-items-end{
+   align-items: flex-end;
+}
+ 
+.z-index-1{
+   z-index: 1;
+}
+

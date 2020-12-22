@@ -1,0 +1,92 @@
+//
+// Application Variables
+//-----------------------------------------------------
+
+// Colors
+$default: 							#ffffff;
+$primary-color:				    	#9BD770;
+$secondary-color: 					#479EC0;
+$black:  							#1c1c1c;
+$light-black:                       rgba($black,0.7);    
+$blue:  							#479EC0;
+$dark-blue:                         #0C2643;
+$green: 							#9BD770;
+$light-green:                        #EBF7E3;
+$dark-green:                       #375F1B;
+$white:  							#fff;
+$mail:                               #c71610;
+$facebook:                             #3b5998;
+$twitter:                                #00acee;
+$instagram:                          radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+$less-opacity-bg: rgba($primary-color,0.8);
+$divider-line:rgba($light-green,0.3);
+
+$glass-background:rgba($color:#000, $alpha:0.3);
+$transparent-background: rgba($color:#fff, $alpha:0.08) ;
+
+/* box shadow */
+$box-shadow-none: 					none;
+$box-shadow-card: 				 6px 8px 12px -2px rgba(0,0,0,0.34);
+         
+$box-shadow-btn: 					0 0px 10px rgba(00, 00, 00, 0.2);
+$box-shadow-navbar: 				0 0px 5px rgba(00, 00, 00, 0.3);
+$box-shadow-hover: 					0 12px 26px rgba(0, 0, 0, 0.08);
+$box-shadow-popup: 					0 0px 14px rgba(00,00,00, 0.10);
+$box-shadow-table:                  0 0px 14px rgba(0,0,0,0.16);
+$box-shadow-icon:                   0px 0px 3px rgba(0,0,0,0.16);
+$box-shadow-app:                    0px 1px 4px rgba(0,0,0,0.16);
+$box-shadow-add:                    0px 1px 4px rgba(0, 0, 0, 0.14);
+$box-shadow-chartheader:            0px 3px 3px rgba(0,0,0,0.16);
+$box-shadow-selected:               0px 12px 20px rgba(0, 0, 0, 0.16);
+
+// Font family
+$font-alegreya:                      'Alegreya', serif;
+$decorative-font:                    'Cinzel Decorative', cursive;
+$default-font:						$font-alegreya;
+
+// Font size
+$font-xs:							0.625rem; /*=10px*/
+$font-s:							0.75rem; /*=12px*/
+$font-r:							0.875rem; /*=14px*/
+$font-m:							1rem; /*=16px basefont */
+$font-mx:							1.0625rem; /*=17px*/
+$font-ml:							1.125rem; /*=18px*/
+$font-l:							1.25rem; /*=20px*/
+$font-xl:							1.375rem; /*=22px*/
+$font-xxl:							1.5rem; /*=24px*/
+$font-xlx:							1.625rem; /*=26px*/
+$font-xxxl:							1.75rem; /*=28px*/
+$font-xxll:							1.875rem; /*=30px*/
+$font-large:                        2.9375rem; /*=47px*/
+
+// Font weight
+$font-thin:							100;
+$font-light:						300;
+$font-regular:						400;
+$font-medium:						500;
+$font-semibold:                     600;   
+$font-bold:							700;
+$font-bolder:						900;
+
+
+
+//Transition
+$transition-height:					max-height .25s;
+$bg-transition:						background 0.25s ease;
+$color-transition:					color 0.2s ease;
+$width-transition:					width 0.25s ease;
+$all-transition:					all 0.25s;
+$tab-transition:                    transform 250ms ease,-webkit-transform 250ms ease;
+$hover-transition:                  all .2s ease;
+
+//Border-Radius
+$default-border-radius:             5px;
+$primary-border-radius:            20px;
+$secondary-border-radius:           10px;
+// Image
+$img-xs:							35px;
+$img-s:								45px;
+$img-m:								55px;
+$img-l:								60px;
+$img-xl:							75px;
+$img-xxl:							130px;

@@ -1,0 +1,44 @@
+.floating-contact {
+  z-index: 99;
+  right: 0;
+  top: 67px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.floating-contact li {
+  list-style: none;
+  padding: 8px;
+  border-radius: 50px 0 0 50px;
+  margin-top: 2px;
+}
+
+.floating-contact li:first-child {
+  margin-top: 0;
+}
+
+.floating-contact li .fa {
+  font-size: 20px;
+}
+
+.floating-contact li .contact-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.floating-contact li .contact-link span {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=floating-icons.css.map */

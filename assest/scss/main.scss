@@ -1,0 +1,21 @@
+@import './4-tools/fonts.scss';
+@import './4-tools/vars.scss';
+@import './4-tools/mixins.scss';
+
+
+// @import '';
+@import './2-basic/_body-elements.scss';
+@import './2-basic/_helpers.scss';
+@import './2-basic/_links.scss';
+
+
+@import './1-components/navbar.scss';
+@import './1-components/carousel.scss';
+@import './1-components/button.scss';
+@import './1-components/hover.scss';
+@import './1-components/floating-icons.scss';
+@import './1-components/form.scss';
+// @import '';
+
+@import './3-structure/home.scss';
+

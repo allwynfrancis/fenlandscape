@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AA0BA,gBAAgB;AAqBU,SAAS;AACX,SAAS;AACR,SAAS;AACb,mBAAmB;AACb,SAAS;AACV,SAAS;AACX,SAAS;AACP,SAAS;AACV,SAAS;AACP,SAAS;AACT,SAAS;AACR,SAAS;AACU,SAAS",
+    "sources": [
+        "vars.scss"
+    ],
+    "names": [],
+    "file": "vars.css"
+}
